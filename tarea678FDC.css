@@ -1,0 +1,28 @@
+    #Texto1{
+    width:80%;
+    Float:left;
+    font-family: Verdana;
+    font-size:100%;
+    text-align: justify;
+   
+    }
+    .container{
+        border-style: solid; color:rgb(10, 69, 71); border-radius: 10px; font-style: italic; font-weight: bold;
+    }    
+    .card{
+        margin-left: 25px;
+        margin-bottom: 100px;
+    }
+    #separacion{
+    clear:both;
+    }
+    #pie{
+        background-color: rgb(224, 199, 199);        
+        font-style: italic;
+        font-size: 15px;
+        text-align:center;    
+}
+ *{
+    background-color: #dfdfe5;
+    background: linear-gradient(135deg, #0f147355 25%, transparent 25%) 
+ }   

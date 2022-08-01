@@ -1,0 +1,62 @@
+body {
+ background-color: #cee7df; 
+ text-align: center;  
+ font-size: 0.9em;
+ font-weight: 900;
+ padding: 10px;
+}
+i {
+    font-style: oblique;
+    font-size: 1.8em 1.8ex;
+    text-decoration: underline;
+}
+h1{
+    font-family: Verdana;
+    font-style: italic;
+    font-size: 24px;
+}
+h3{
+    border-style: double;
+    border-color: blue;
+}
+main{
+    text-align: center;
+    font-style: italic;
+    font-size: 12px;
+}
+.mifooter{
+    text-align: left;
+    font-style: italic;
+    font-size: 12px;
+}
+div{
+    width: 400px; height: 150px;
+    background-color: #43f5b9;
+    border: 4px dotted;
+    padding: 48px;
+    margin: 50px;
+    display: inline-table;
+    text-align: center;
+}
+div p{
+    display: table-cell;
+    vertical-align: center;
+    font-family: Helvetica;
+    font-size: 32px;
+    text-transform: uppercase;
+    color: azure;
+}
+input{
+    max-lines: 1;
+}
+fieldset{
+    height: 4;
+    width: 5;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flood-color: blue;
+}
+/*background-image: url (ruta de la imagen);*/
